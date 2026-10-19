@@ -1,0 +1,11 @@
+[Unit]
+Description=Hello World
+After=systemd-networkd-wait-online.service
+Wants=systemd-networkd-wait-online.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/hello-world
+
+[Install]
+WantedBy=multi-user.target

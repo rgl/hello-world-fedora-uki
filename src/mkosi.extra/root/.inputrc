@@ -1,0 +1,6 @@
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+"\eOD": backward-word
+"\eOC": forward-word
+set show-all-if-ambiguous on
+set completion-ignore-case on
