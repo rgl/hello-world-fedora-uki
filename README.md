@@ -40,7 +40,7 @@ qemu-system-x86_64 \
     -m 4G \
     -drive if=pflash,format=raw,unit=0,file=/usr/share/OVMF/OVMF_CODE_4M.fd,readonly=on \
     -drive if=pflash,format=raw,unit=1,file=OVMF_VARS_4M.fd \
-    -drive file=fat:rw:boot,format=raw \
+    -drive if=virtio,format=raw,file=fat:boot,readonly=on \
     -nic user
 # hop to the vm console and login as root with the vagrant password.
 # then execute the following commands.
