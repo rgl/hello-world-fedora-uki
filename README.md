@@ -2,11 +2,11 @@
 
 A Fedora Unified Kernel Image (UKI) example.
 
-This uses the [mkosi 26](https://packages.fedoraproject.org/pkgs/mkosi/mkosi/) and [ukify 259.9](https://packages.fedoraproject.org/pkgs/systemd/systemd-ukify/) Fedora 44 packages.
+This uses the [mkosi 26](https://packages.fedoraproject.org/pkgs/mkosi/mkosi/) and [ukify 262.1](https://packages.fedoraproject.org/pkgs/systemd/systemd-ukify/) Fedora 45 packages.
 
 ## Development
 
-Install the [fedora-44-uefi-amd64](https://github.com/rgl/fedora-vagrant) vagrant box.
+Install the [fedora-45-uefi-amd64](https://github.com/rgl/fedora-vagrant) vagrant box.
 
 Create the UKI:
 

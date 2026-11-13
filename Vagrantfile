@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.define :builder do |config|
-    config.vm.box = "fedora-44-uefi-amd64"
+    config.vm.box = "fedora-45-uefi-amd64"
     config.vm.hostname = "builder"
     config.vm.provider "libvirt" do |lv, config|
       lv.cpus = BUILDER_VM_CPUS
