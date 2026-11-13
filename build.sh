@@ -18,14 +18,14 @@ rsync \
     /build/src/
 pushd /build/src/
 
-# build the efi.
+# build the uki.
 rm -rf ../output
 install -d ../output
 mkosi \
     build \
     2>&1 | tee ../output/mkosi.build.log
 
-# show information about the efi.
+# show information about the uki.
 ukify \
     inspect \
     ../output/hello-world.efi

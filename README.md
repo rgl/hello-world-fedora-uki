@@ -1,6 +1,6 @@
 # About
 
-A Fedora UEFI Unified Kernel Image (UKI) example.
+A Fedora Unified Kernel Image (UKI) example.
 
 This uses the [mkosi 26](https://packages.fedoraproject.org/pkgs/mkosi/mkosi/) and [ukify 259.9](https://packages.fedoraproject.org/pkgs/systemd/systemd-ukify/) Fedora 44 packages.
 
